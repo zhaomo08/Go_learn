@@ -12,6 +12,8 @@ func testSlice() {
 
 	s = append(s, 10)
 	s = append(s, 10)
+
+	s = append(s, 10)
 	fmt.Printf("after len[%d] cap[%d]\n", len(s), cap(s))
 	s = append(s, 10)
 	s = append(s, 10)
